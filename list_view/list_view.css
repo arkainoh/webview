@@ -1,0 +1,70 @@
+div.list-view{
+  width: 80%;
+  margin: auto;
+}
+ 
+div.list-view h2 {
+  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+div.list-view ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+div.list-view ul li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  line-height: 1.5em;
+}
+ 
+div.list-view ul li:last-child {
+  border: none;
+}
+ 
+div.list-view ul li a {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-decoration: none;
+
+  color: #000;
+  display: block;
+  white-space: nowrap;
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+div.list-view ul li a:hover {
+  font-size: 25px;
+  background: #f6f6f6;
+}
+
+div.list-view ul li a span.title {
+  width: 100%;
+  font-weight: bold;
+  color: #034EA2;
+}
+
+div.list-view ul li a span.contents {
+  width: 100%;
+  font-size: 15px;
+}
+
+div.list-view ul li a span.post-date {
+  font-size: 15px;
+}
+
+div.list-view ul li a span.post-info {
+  font-size: 15px;
+  color: #aaaaaa;
+  margin-left: 5px;
+}
